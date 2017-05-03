@@ -14,5 +14,3 @@ build      : |
     %perl_build
 install    : |
     %perl_install
-check      : |
-    ./Build test
