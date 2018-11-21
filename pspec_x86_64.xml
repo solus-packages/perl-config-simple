@@ -2,8 +2,8 @@
     <Source>
         <Name>perl-config-simple</Name>
         <Packager>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>Artistic-2.0</License>
         <PartOf>programming.perl</PartOf>
@@ -19,38 +19,38 @@
 </Description>
         <PartOf>programming.perl</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/Config/Simple.pm</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/CLEAR.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/DELETE.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/EXISTS.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/FETCH.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/FIRSTKEY.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/NEXTKEY.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/STORE.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/TIEHASH.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/autosplit.ix</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/block.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/dump.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/error.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/errstr.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/hashref.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/import_from.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/import_names.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/param_hash.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/vars.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/verbose.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/auto/Config/Simple/write_string.al</Path>
-            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.26/x86_64-linux-thread-multi/auto/Config/Simple/.packlist</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/Config/Simple.pm</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/CLEAR.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/DELETE.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/EXISTS.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/FETCH.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/FIRSTKEY.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/NEXTKEY.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/STORE.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/TIEHASH.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/autosplit.ix</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/block.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/dump.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/error.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/errstr.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/hashref.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/import_from.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/import_names.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/param_hash.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/vars.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/verbose.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/auto/Config/Simple/write_string.al</Path>
+            <Path fileType="library">/usr/lib64/perl5/vendor_perl/5.28/x86_64-linux-thread-multi/auto/Config/Simple/.packlist</Path>
+            <Path fileType="man">/usr/share/man/man3/Config::Simple.3</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2018-01-16</Date>
+        <Update release="4">
+            <Date>2018-11-21</Date>
             <Version>4.59</Version>
             <Comment>Packaging update</Comment>
-            <Name>Peter O&apos;Connor</Name>
-            <Email>peter@solus-project.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
